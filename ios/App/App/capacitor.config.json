@@ -1,0 +1,19 @@
+{
+	"appId": "com.riverpoker.game",
+	"appName": "河牌 River Poker",
+	"webDir": "www",
+	"backgroundColor": "#111a20",
+	"android": {
+		"allowMixedContent": false,
+		"backgroundColor": "#111a20"
+	},
+	"ios": {
+		"backgroundColor": "#111a20",
+		"contentInset": "never",
+		"preferredContentMode": "mobile"
+	},
+	"server": {
+		"androidScheme": "https"
+	},
+	"packageClassList": []
+}
