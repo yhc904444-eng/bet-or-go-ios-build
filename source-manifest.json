@@ -1,6 +1,6 @@
 {
-  "version": "2.0.5",
-  "sourceCommit": "eac0dc69eee483a2070da3ff1f9fa0bbcbe88eb1",
+  "version": "2.0.6",
+  "sourceCommit": "09ce312588b38e92050b5d573fca77ca6be917a7",
   "files": [
     {
       "path": ".gitignore",
@@ -109,7 +109,7 @@
     },
     {
       "path": "ios/App/App/public/index.html",
-      "sha256": "f86c66265c95cb45e69e4c11556c9024951df9c342a3e4de956d6f2c2c92402b",
+      "sha256": "f1e6d469e40f8d312a622e1e2cad7e570e78a58bdfac82eea929bfcc5e90b772",
       "size": 419
     },
     {
@@ -118,18 +118,18 @@
       "size": 2385
     },
     {
-      "path": "ios/App/App/public/assets/index-BR8QMIyr.css",
-      "sha256": "10c9b761261bd09a60d8ff9f808c11c9ec29d16720ca536bdda153df1d431341",
-      "size": 33226
+      "path": "ios/App/App/public/assets/index-CX6_ewIy.js",
+      "sha256": "393d8c75fee21b479b8a097166b91aff2a78abb7f53c741f92a4bc8d3a3c86c3",
+      "size": 270973
     },
     {
-      "path": "ios/App/App/public/assets/index-BX0tYzAd.js",
-      "sha256": "31a6ad6e7f3c80d38dbba8b0747b9b2fe10a4e3cc9be13060ed484a5684c3cfd",
-      "size": 270459
+      "path": "ios/App/App/public/assets/index-D5h_MMmi.css",
+      "sha256": "b9616483e6af07772f206352279fe043d5c9797a13fb7238f8ac92493d198dc0",
+      "size": 31626
     },
     {
       "path": "ios/App/App.xcodeproj/project.pbxproj",
-      "sha256": "68665e7d95378e897ee4ea510d47b42282f1565cd6cc89fe6b41516a76aa4f76",
+      "sha256": "156076f3344efb3937a6f637fb94f1e844e2ba40eacb279eb692faa0d6d46e33",
       "size": 14949
     },
     {
