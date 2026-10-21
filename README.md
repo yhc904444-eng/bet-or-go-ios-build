@@ -1,10 +1,10 @@
-# RIVER 河牌 iOS 云打包工程
+# Bet Or Go iOS 云打包工程
 
 这个工程只包含 iOS 外壳、已经构建的手机界面资源和云编译脚本。无需 Apple 开发者会员或签名证书即可编译供侧载工具重新签名的 IPA；需要云端 macOS 和 Xcode 26 或以上。
 
 ## 在 GitHub Actions 编译
 
-在 Actions 中选择 **Build iOS IPA for free sideloading**，点击 **Run workflow**。成功后下载 **RiverPoker-iOS-Unsigned** 产物，解压得到 `.ipa`、SHA256、验证报告和构建日志。公开仓库使用 GitHub 标准 macOS runner 的构建分钟免费；私有仓库需先核对免费额度和消费预算。此工作流只由手动操作启动，产物保留 3 天。
+在 Actions 中选择 **Build iOS IPA for free sideloading**，点击 **Run workflow**。成功后下载 **BetOrGo-iOS-Unsigned** 产物，解压得到 `.ipa`、SHA256、验证报告和构建日志。公开仓库使用 GitHub 标准 macOS runner 的构建分钟免费；私有仓库需先核对免费额度和消费预算。此工作流只由手动操作启动，产物保留 3 天。
 
 本工程不包含 Apple ID、签名私钥、GitHub 登录凭证、服务器数据库或玩家记录。上传公开仓库会公开这里的 iOS 代码与网页界面资源；需要先由工程拥有者同意。
 
@@ -20,7 +20,7 @@ IPA 下载到手机文件列表后仍需要签名安装。仅下载文件不能�
 
 ## 联机
 
-安装包自带离线人机界面。朋友联机需要共同可访问的 HTTPS 服务；在大厅的“联机地址设置”中填写同一个服务器地址，再用房间码加入。默认服务器沿用现有河牌设置；本次打包不会新开服务器。
+安装包自带离线人机界面。朋友联机需要共同可访问的 HTTPS 服务；在大厅的“联机地址设置”中填写同一个服务器地址，再用房间码加入。默认服务器沿用现有联机设置；本次打包不会新开服务器。
 
 ## 验证边界
 

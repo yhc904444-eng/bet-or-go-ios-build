@@ -1,4 +1,4 @@
-RIVER Poker iOS - Third-party notices
+Bet Or Go iOS - Third-party notices
 
 Capacitor 8.5.3 (JavaScript runtime and native iOS components)
 https://github.com/ionic-team/capacitor

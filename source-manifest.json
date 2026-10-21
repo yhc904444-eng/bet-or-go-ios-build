@@ -1,6 +1,6 @@
 {
-  "version": "2.0.4",
-  "sourceCommit": "938a542d1aee379619eafca145301519c796b4c4",
+  "version": "2.0.5",
+  "sourceCommit": "eac0dc69eee483a2070da3ff1f9fa0bbcbe88eb1",
   "files": [
     {
       "path": ".gitignore",
@@ -9,18 +9,18 @@
     },
     {
       "path": "README.md",
-      "sha256": "6050df6c1c891c19c0c9e94db7ed1e6b613cf6e9d9488f3c64bebc5673ff14e9",
-      "size": 2616
+      "sha256": "23043f394246cd5f2273f110b7d269e60f9f319a622299cc59a54f7e63594197",
+      "size": 2610
     },
     {
       "path": "THIRD-PARTY-NOTICES.txt",
-      "sha256": "745f6afec033b53f8dc095fa2e72f9373df224730081cdb2052bf00cee38d6e4",
-      "size": 2387
+      "sha256": "1e62359ed55ca941fe0b1030425acffccee8ad9c3181abca2244d916fb5edb6b",
+      "size": 2385
     },
     {
       "path": ".github/workflows/ios-unsigned.yml",
-      "sha256": "bbfe72a839469d580fd0d632385aa33fddc05d15ac1c8d3db0e997e8e2aaf1b0",
-      "size": 758
+      "sha256": "432136ab9300c4ee46976e35bb9897e0c657e9679944b43c01de99ef8109a735",
+      "size": 755
     },
     {
       "path": "ios/debug.xcconfig",
@@ -34,18 +34,18 @@
     },
     {
       "path": "ios/App/App/capacitor.config.json",
-      "sha256": "0b7e0c07c72f12190222bff8e1b8ce4289706e4e619c07ebb9321fbdb0eef028",
-      "size": 375
+      "sha256": "c005ce00f418c1fe737507a3d9560c0dae0e6b5e541bc0f03db435ae737a00e9",
+      "size": 366
     },
     {
       "path": "ios/App/App/config.xml",
-      "sha256": "e6b95afd462816db74b9c9ce8d810849e7093c3b82427d0f2d268536bff70b89",
-      "size": 182
+      "sha256": "5039400a9e692dad0ed4344a4b4e8c09ad82ceb409247855f5f82a710651c221",
+      "size": 181
     },
     {
       "path": "ios/App/App/Info.plist",
-      "sha256": "1e492d6a91f8870a9d1807a47f63ad51ecfd5842d96e6a6fb4d66d3bf8b9a857",
-      "size": 2271
+      "sha256": "a26ae6b65cc6172d0f169fefe6261d2d859c0fbdca2e039f682236dfc9aab76c",
+      "size": 2262
     },
     {
       "path": "ios/App/App/SceneDelegate.swift",
@@ -98,38 +98,38 @@
       "size": 1019
     },
     {
-      "path": "ios/App/App/public/cordova.js",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "size": 0
-    },
-    {
       "path": "ios/App/App/public/cordova_plugins.js",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "size": 0
     },
     {
+      "path": "ios/App/App/public/cordova.js",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    {
       "path": "ios/App/App/public/index.html",
-      "sha256": "a6f0525cde7f8ea319ad52b5eaa6bc4bb67a330ed34209e66271e39e3374a423",
-      "size": 422
+      "sha256": "f86c66265c95cb45e69e4c11556c9024951df9c342a3e4de956d6f2c2c92402b",
+      "size": 419
     },
     {
       "path": "ios/App/App/public/THIRD-PARTY-NOTICES.txt",
-      "sha256": "745f6afec033b53f8dc095fa2e72f9373df224730081cdb2052bf00cee38d6e4",
-      "size": 2387
+      "sha256": "1e62359ed55ca941fe0b1030425acffccee8ad9c3181abca2244d916fb5edb6b",
+      "size": 2385
     },
     {
-      "path": "ios/App/App/public/assets/index-DniRYCUw.css",
-      "sha256": "52fe836fa1bd8470d13de1ff9b19f645404ae39ea8be82a9f8473368640ed3b0",
+      "path": "ios/App/App/public/assets/index-BR8QMIyr.css",
+      "sha256": "10c9b761261bd09a60d8ff9f808c11c9ec29d16720ca536bdda153df1d431341",
       "size": 33226
     },
     {
-      "path": "ios/App/App/public/assets/index-UWvdrW0T.js",
-      "sha256": "4fd96e70c8be49c20d5a7720816ab18a87ece6c6e46958c75c9181574d784461",
-      "size": 270496
+      "path": "ios/App/App/public/assets/index-BX0tYzAd.js",
+      "sha256": "31a6ad6e7f3c80d38dbba8b0747b9b2fe10a4e3cc9be13060ed484a5684c3cfd",
+      "size": 270459
     },
     {
       "path": "ios/App/App.xcodeproj/project.pbxproj",
-      "sha256": "8e47f3450f67d3afc3fae467f0b4b5b1ff1d0f5ecfee1b26b2145cd604ed0905",
+      "sha256": "68665e7d95378e897ee4ea510d47b42282f1565cd6cc89fe6b41516a76aa4f76",
       "size": 14949
     },
     {
@@ -144,13 +144,13 @@
     },
     {
       "path": "scripts/build-ios-unsigned.sh",
-      "sha256": "8d36739f25b51fd6ee2daa47f5bd00c7ad061fffcb48276b2a027a3d7d2f8baf",
-      "size": 1752
+      "sha256": "94c9a89bb26fa7fb3f8ed0f6196ede50698ea7d3c8c8414a44d9169e3afc1b2c",
+      "size": 1743
     },
     {
       "path": "scripts/verify-ios-ipa.py",
-      "sha256": "5d5995f1ac72f73874cc8deca5608fc4d7d2ec5e4937ea457da54d54aeb63ecc",
-      "size": 3793
+      "sha256": "74cfe72f00af22930564d32bc9a4f43289d6db9b6d7981b07c5b4e0870faa5dc",
+      "size": 3936
     }
   ]
 }

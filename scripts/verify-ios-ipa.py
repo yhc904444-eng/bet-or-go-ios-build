@@ -16,6 +16,7 @@ def verify(ipa_path):
         info = plistlib.loads(archive.read(app + "Info.plist"))
         assert info["CFBundlePackageType"] == "APPL", "Payload is not an app"
         assert info["CFBundleSupportedPlatforms"] == ["iPhoneOS"], "Simulator build"
+        assert info["CFBundleDisplayName"] == "Bet Or Go", "App display name mismatch"
         assert info["CFBundleIdentifier"] == "com.riverpoker.game", "Wrong application"
         executable_name = app + info["CFBundleExecutable"]
         binary = archive.read(executable_name)
@@ -48,6 +49,7 @@ def verify(ipa_path):
             "file": ipa_path.name,
             "sha256": hashlib.sha256(ipa_path.read_bytes()).hexdigest(),
             "bundleIdentifier": info["CFBundleIdentifier"],
+            "displayName": info["CFBundleDisplayName"],
             "version": info["CFBundleShortVersionString"],
             "build": info["CFBundleVersion"],
             "minimumIOSVersion": info["MinimumOSVersion"],

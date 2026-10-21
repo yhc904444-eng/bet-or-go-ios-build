@@ -25,15 +25,15 @@ xcodebuild \
   -destination 'generic/platform=iOS' \
   -sdk iphoneos \
   -derivedDataPath .build/ios-unsigned/DerivedData \
-  -archivePath .build/ios-unsigned/RiverPoker.xcarchive \
+  -archivePath .build/ios-unsigned/BetOrGo.xcarchive \
   CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= \
   ARCHS=arm64 ONLY_ACTIVE_ARCH=NO \
   archive 2>&1 | tee release/ios-build.log
 
-app="$PWD/.build/ios-unsigned/RiverPoker.xcarchive/Products/Applications/App.app"
+app="$PWD/.build/ios-unsigned/BetOrGo.xcarchive/Products/Applications/App.app"
 test -d "$app"
 version="$(/usr/libexec/PlistBuddy -c 'Print :CFBundleShortVersionString' "$app/Info.plist")"
-ipa="$PWD/release/RiverPoker-$version-iOS-Unsigned.ipa"
+ipa="$PWD/release/BetOrGo-$version-iOS-Unsigned.ipa"
 payload_dir="$(mktemp -d "${TMPDIR:-/tmp}/river-ios-unsigned.XXXXXX")"
 trap 'rm -rf -- "$payload_dir"' EXIT
 mkdir -p "$payload_dir/Payload"
